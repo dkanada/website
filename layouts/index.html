@@ -1,0 +1,14 @@
+{{ define "title" -}}
+  {{ .Site.Title }}
+{{- end }}
+{{ define "header" }}
+  {{ partial "header.html" . }}
+{{ end }}
+{{ define "main" }}
+  {{ range (.Paginate (where .Data.Pages "Type" "posts")).Pages }}
+    {{ partial "preview.html" . }}
+  {{ end }}
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer.html" . }}
+{{ end }}
