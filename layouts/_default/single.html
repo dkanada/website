@@ -3,6 +3,7 @@
 {{ end }}
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
+  <div>{{ dateFormat "January 1, 2006" .Date }}</div>
   {{ .Content }}
 {{ end }}
 {{ define "footer" }}

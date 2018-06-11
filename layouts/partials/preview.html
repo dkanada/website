@@ -3,11 +3,6 @@
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </h2>
   <div>{{ dateFormat "January 1, 2006" .Date }}</div>
-  {{ if .Description }}
-    <blockquote class="description">{{ .Description }}</blockquote>
-  {{ end }}
-  <div>
-    {{ .Summary }}
-  </div>
-  <a class="more" href="{{ .RelPermalink }}">Read More</a>
+  <div>{{ .Summary }}</div>
+  <a href="{{ .RelPermalink }}">Read More</a>
 </div>
