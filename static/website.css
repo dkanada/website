@@ -12,19 +12,18 @@ body {
 
 h1 {
     font-size: 1.6rem;
-    font-style: normal;
     margin: 10px 0;
 }
 
 h2, h3, h4 {
     font-size: 1.2rem;
-    font-style: normal;
     margin: 60px 0 20px;
 }
 
 a {
     color: #ff2e88;
     text-decoration: none;
+    outline: none;
     transition: all 0.3s ease;
 }
 

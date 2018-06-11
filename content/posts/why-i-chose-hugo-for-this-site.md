@@ -17,10 +17,12 @@ A static site generator seemed like the best solution, and Jekyll and Hugo are t
 
 > Did I mention the entire reason I created this site was to rant somewhere about how amazing the movie [Edge of Tomorrow](https://www.imdb.com/title/tt1631867/) was? Seriously, go watch that movie right now, what are you doing?
 
+Hugo is also notably faster a generating the site from the source files, usually performing vastly better when compared with Jekyll. This might be useful for other people, but I couldn't care less. Jekyll can generate a site in seconds, and Hugo can do the same in milliseconds - neither of them take a particularly long time, so it doesn't really matter.
+
 ### The Decision
 
 Both projects have theming support, but for this site I chose to make a simple theme on my own. I almost went with a modified theme inspired by PureCSS by Yahoo that you can see below, but I am partial to dark themes. The styling will probably change often, I am always finding interesting new site layouts on other blogs.
 
 ![purecss](/images/purecss.png)
 
-Jekyll basically has too many features that only add complexity. In addition, Hugo fixes several small annoyances I found when learning about Jekyll and implements them in a more logical way.
+Jekyll has too many features that only add complexiy, and has several design choices that I feel are somewhat illogical. For those reasons, I decided to use Hugo for this site, and also included a small library called [Intense Images](https://github.com/tholman/intense-images) for fullscreen image support. I wanted to keep the site as small as possible, but Intense Images doesn't even use jQuery - I just had to include it for that reason alone.

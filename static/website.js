@@ -1,3 +1,3 @@
 window.onload = function() {
-    intense(document.querySelectorAll('img'));
+    Intense(document.querySelectorAll('img'));
 }
