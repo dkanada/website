@@ -21,6 +21,6 @@ A static site generator seemed like the best solution, and Jekyll and Hugo are t
 
 Both projects have theming support, but for this site I chose to make a simple theme on my own. I almost went with a modified theme inspired by PureCSS by Yahoo that you can see below, but I am partial to dark themes. The styling will probably change often, I am always finding interesting new site layouts on other blogs.
 
-{{% image "/images/purecss.png" %}}
+![purecss](/images/purecss.png)
 
 Jekyll basically has too many features that only add complexity. In addition, Hugo fixes several small annoyances I found when learning about Jekyll and implements them in a more logical way.
